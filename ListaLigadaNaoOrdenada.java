@@ -47,7 +47,15 @@ public class ListaLigadaNaoOrdenada {
 			aux.setChave(item.getChave());
 		}
 		
-		
+	}
+	public void excluirElemento(Nodo item){
+		Nodo aux = primeiro;
+		while (aux != null){
+			if (aux.getChave() == item.getChave()) {
+				
+			}
+			aux=aux.getNext();
+		}
 		
 	}
 }
